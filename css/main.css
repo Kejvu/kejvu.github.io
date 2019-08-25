@@ -26,6 +26,13 @@ Primary use:
   src: url('../fonts/Poppins/Poppins-Medium.ttf'); 
 }
 
+#link-logo {
+  font-family: Poppins-Regular;
+  font-size: 3em;
+  text-decoration: none;
+  color: #000;
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
 /*---------------------------------------------*/
