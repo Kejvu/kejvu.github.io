@@ -20,6 +20,9 @@
                     email
                 })
             })
+            .then(() => {
+                alert(`Success! Your e-mail: ${email} has been added to our newsletter list!`);
+            })
             .catch((error) => console.error(error));
 
         for (var i = 0; i < input.length; i++) {
